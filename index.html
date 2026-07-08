@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List Harian - Peserta 2</title>
+    <style>
+        /* Gaya dasar sederhana agar tampilan rapi saat dibuka */
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 500px;
+            margin: 30px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        h1, h2 {
+            margin-bottom: 5px;
+        }
+        h2 {
+            color: #666;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .tugas-item {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .kelompok-waktu {
+            color: #333;
+            font-size: 1rem;
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+        /* Style tambahan khusus untuk bonus hover */
+        [title] {
+            cursor: help;
+            border-bottom: 1px dashed #3498db;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>To-Do List Harian</h1>
+    <h2>Rabu, 8 Juli 2026</h2>
+
+    <h3 class="kelompok-waktu">🌅 Tugas Pagi</h3>
+    
+    <div id="tugas-pagi-1" class="tugas-item">
+        <input type="checkbox">
+        <span>Olahraga pagi 15 menit</span>
+        <span style="color: green; font-size: large;">Jam 07:45 - 08:00</span>
+    </div>
+
+    <div id="tugas-pagi-2" class="tugas-item">
+        <input type="checkbox">
+        <span>Cek email masuk dan jadwal meeting</span>
+        <span style="color: green; font-size: large;">Jam 08:00 - Selesai</span>
+    </div>
+
+    <hr>
+
+    <h3 class="kelompok-waktu">☀️ Tugas Siang</h3>
+
+    <div id="tugas-siang-2" class="tugas-item">
+        <input type="checkbox">
+        <span>Makan siang & istirahat</span>
+        <span style="color: green; font-size: large;">Jam 12:00 - 13:00</span>
+    </div>
+
+
+    <div id="tugas-siang-1" class="tugas-item">
+        <input type="checkbox">
+        <span title="Lokasi di Cafe Dekat Kantor, bawa laptop dan berkas kontrak!">Meeting dengan tim klien</span>
+        <span style="color: red; font-size: large;">Jam 13:00 - Selesai</span>
+    </div>
+
+    <hr>
+
+    <h3 class="kelompok-waktu">🌙 Tugas Malam</h3>
+
+    <div id="tugas-malam-1" class="tugas-item">
+        <input type="checkbox">
+        <span>Evaluasi di kelas</span>
+        <span style="color: green; font-size: large;">Jam 20:00 - Selesai</span>
+    </div>
+
+     
+
+</body>
+</html>
